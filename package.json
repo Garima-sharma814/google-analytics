@@ -1,0 +1,23 @@
+{
+  "name": "google-analytics",
+  "version": "1.0.0",
+  "description": "Google analytics Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "debug": "nodemon --inspect index.js"
+  },
+  "author": "Garima Sharmna",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "googleapis": "^100.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
