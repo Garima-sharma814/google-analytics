@@ -8,9 +8,12 @@ const app = express();
 app.use(cors());
 app.use(express.static('client/pages'));
 
+app.get('/api', (req, res) => {
+  console.log(`Damn it is working!`)
+})
+
 app.listen(PORT, () => {
-  console.log(PORT);
-  console.log(`Server is up and running at ${PORT}`);
+  console.log(`⚡️ Server is up and running at ${PORT}`);
 });
 
 
